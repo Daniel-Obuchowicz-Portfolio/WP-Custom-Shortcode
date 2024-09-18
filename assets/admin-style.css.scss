@@ -1,0 +1,53 @@
+.custom-shortcode-settings {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.custom-shortcode-settings h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.custom-shortcode-settings .form-table th {
+  padding: 10px 15px;
+  font-weight: 600;
+  color: #444;
+}
+
+.custom-shortcode-settings .form-table td {
+  padding: 10px 15px;
+}
+
+.custom-shortcode-settings input[type="text"],
+.custom-shortcode-settings textarea,
+.custom-shortcode-settings input[type="number"] {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.custom-shortcode-settings p.description {
+  color: #666;
+  font-size: 12px;
+}
+
+.custom-shortcode-settings .submit input {
+  background-color: #007cba;
+  border-color: #0073aa;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.custom-shortcode-settings .submit input:hover {
+  background-color: #006799;
+}
